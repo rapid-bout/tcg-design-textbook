@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# 全章を結合して単一の Markdown ファイルを生成する
+# 全章を結合して単一 Markdown を生成し、README の目次も更新する
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 CHAPTERS_DIR="${REPO_ROOT}/chapters"
 OUTPUT="${REPO_ROOT}/dist/tcg-design-textbook.md"
+README="${REPO_ROOT}/README.md"
 
 mkdir -p "$(dirname "$OUTPUT")"
 
@@ -39,6 +40,7 @@ FILES=(
   appendix_b.md
 )
 
+# --- 1. 全章結合 ---
 : > "$OUTPUT"
 
 for file in "${FILES[@]}"; do
@@ -53,3 +55,51 @@ done
 
 echo "ビルド完了: ${OUTPUT}"
 echo "$(wc -l < "$OUTPUT") 行"
+
+# --- 2. README 目次生成 ---
+TOC=""
+for file in "${FILES[@]}"; do
+  path="${CHAPTERS_DIR}/${file}"
+  # 先頭の見出し行を取得
+  heading=$(head -1 "$path")
+
+  case "$file" in
+    00_preface.md)
+      # 前書きはスキップ（README 冒頭と重複）
+      continue
+      ;;
+    part*_intro.md)
+      # 部の導入: "# 第 X 部 — ..." → セクション見出しとして出力
+      title="${heading#\# }"
+      TOC+=$'\n'"### ${title}"$'\n'
+      ;;
+    *)
+      # 章・付録: "## タイトル" → リンク付きリストとして出力
+      title="${heading#\#\# }"
+      TOC+="- [${title}](chapters/${file})"$'\n'
+      ;;
+  esac
+done
+
+# README を生成
+cat > "$README" << READMEEOF
+# TCG デザインの教科書
+
+> トレーディングカードゲーム／デジタルカードゲーム（TCG/DCG）の設計に関する包括的リファレンス。
+> 特定のタイトルに依存しない、一般原則としてまとめている。
+
+## 目次
+${TOC}
+## ビルド
+
+\`\`\`bash
+# 全章を結合して単一ファイルを生成
+./scripts/build.sh
+\`\`\`
+
+## ライセンス
+
+本書の著作権は著者に帰属します。
+READMEEOF
+
+echo "README 更新完了"
