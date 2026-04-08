@@ -2,7 +2,9 @@
 
 **コモンのクリーチャーカーブ（色別スロット詳細）**
 
-N&B #13 (2021) で公開された、コモンの各色クリーチャースロットのマナ値（MV）割り当て。「特にコモンでは、クリーチャーに滑らかなカーブが組み込まれていることが非常に重要」（Rosewater）。
+Nuts & Bolts #13（以下 N&B #13）(2021) で公開された、コモンの各色クリーチャースロットのマナ値（MV）割り当て。「特にコモンでは、クリーチャーに滑らかなカーブが組み込まれていることが非常に重要」（Rosewater）。
+
+> **スロット番号の凡例:** プレフィックスの意味: C=Common, W=White, U=Blue（MtG の慣習で U が Blue を示す）, B=Black, R=Red, G=Green
 
 **白（12 体）:**
 CW01: 1 MV / CW02: 1-2 MV / CW03: 2 MV / CW04: 2 MV / CW05: 2 MV / CW06: 2-3 MV / CW07: 3 MV / CW08: 3 MV / CW09: 4 MV / CW10: 4 MV / CW11: 5 MV / CW12: 5-6 MV
@@ -24,7 +26,7 @@ CG01: 1 MV / CG02: 2 MV / CG03: 2 MV / CG04: 3 MV / CG05: 3 MV / CG06: 3-4 MV / 
 
 ---
 
-# 付録 — 参考文献
+## 付録 — 参考文献
 
 > **URL の永続性について:** 本書で引用している Web 記事の URL は、2025 年時点で有効なものである。特に magic.wizards.com の旧記事は過去に URL 構造の変更が複数回行われており、将来リンク切れになる可能性がある。リンク切れの場合は、記事タイトル・著者名・公開年で検索するか、[Wayback Machine](https://web.archive.org/) でアーカイブを探すことを推奨する。各出典には可能な限り記事タイトルと著者名を併記しているのはこのためである。
 
@@ -32,18 +34,18 @@ CG01: 1 MV / CG02: 2 MV / CG03: 2 MV / CG04: 3 MV / CG05: 3 MV / CG06: 3-4 MV / 
 
 | タイトル | 著者 | 出版 | 概要 |
 |---------|------|------|------|
-| *Characteristics of Games* | George Skaff Elias, Richard Garfield, K. Robert Gutschera | MIT Press | ゲームの特性を体系的に分析。運・実力・情報・複雑性 |
+| *Characteristics of Games* | George Skaff Elias, Richard Garfield, K. Robert Gutschera | MIT Press, 2012 | ゲームの特性を体系的に分析。運・実力・情報・複雑性 |
 | *Uncertainty in Games* | Greg Costikyan | MIT Press, 2013 | ゲームにおける不確実性の 7 源泉を理論化 |
-| *Playing to Win* | David Sirlin | — | 競技ゲームの思想。Slippery Slope、Yomi |
-| *A Theory of Fun* | Raph Koster | O'Reilly | 楽しさの認知科学的分析 |
-| *Rules of Play* | Katie Salen, Eric Zimmerman | MIT Press | ゲームデザインの総合教科書 |
+| *Playing to Win* | David Sirlin | Sirlin Games, 2006 | 競技ゲームの思想。Slippery Slope、Yomi |
+| *A Theory of Fun for Game Design* | Raph Koster | O'Reilly, 2004 | 楽しさの認知科学的分析 |
+| *Rules of Play* | Katie Salen & Eric Zimmerman | MIT Press, 2003 | ゲームデザインの総合教科書 |
 
 ## GDC 講演
 
 | タイトル | 講演者 | 年 | リンク |
 |---------|--------|-----|--------|
 | Twenty Years, Twenty Lessons | Mark Rosewater | 2016 | [GDC Vault](https://gdcvault.com/play/1023186/Twenty-Years-Twenty) |
-| Hearthstone: 10 Bits of Design Wisdom | Eric Dodds | 2014 | GDC Vault |
+| Hearthstone: 10 Bits of Design Wisdom | Eric Dodds | 2014 | [GDC Vault](https://www.gdcvault.com/play/1020775/Hearthstone-How-to-Create-an) |
 | Metagame Balance | Alexander Jaffe | 2015 | [GDC Vault](https://gdcvault.com/play/1022155/Metagame) |
 | Quest for the Healthy Metagame | Stefan Engblom | 2017 | [GDC Vault](https://www.gdcvault.com/play/1024272/Quest-for-the-Healthy-Metagame) |
 | Slay the Spire: Metrics Driven Design | Anthony Giovannetti | 2019 | [GDC Vault](https://www.gdcvault.com/play/1025731/-Slay-the-Spire-Metrics) |
@@ -54,7 +56,7 @@ CG01: 1 MV / CG02: 2 MV / CG03: 2 MV / CG04: 3 MV / CG05: 3 MV / CG06: 3-4 MV / 
 | 記事 | 著者 | リンク |
 |------|------|--------|
 | Twenty Years, Twenty Lessons Part 1 | Mark Rosewater | [リンク](https://magic.wizards.com/en/news/making-magic/twenty-years-twenty-lessons-part-1-2016-05-30) |
-| FIRE It Up | — | [リンク](https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21) |
+| FIRE It Up | — [要確認] | [リンク](https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21) |
 | Timmy, Johnny, and Spike | Mark Rosewater | [リンク](https://magic.wizards.com/en/news/making-magic/timmy-johnny-and-spike-2013-12-03) |
 | Mechanical Color Pie 2021 | Mark Rosewater | [リンク](https://magic.wizards.com/en/news/making-magic/mechanical-color-pie-2021) |
 | Bleeding Cool | Mark Rosewater | [リンク](https://magic.wizards.com/en/news/making-magic/bleeding-cool-2015-04-06) |
@@ -75,8 +77,8 @@ CG01: 1 MV / CG02: 2 MV / CG03: 2 MV / CG04: 3 MV / CG05: 3 MV / CG06: 3-4 MV / 
 | 記事 | 著者 | リンク |
 |------|------|--------|
 | Who's the Beatdown? | Mike Flores | [Star City Games](https://articles.starcitygames.com/articles/whos-the-beatdown/) |
-| Lauer の 4 つのルール | — | [mtg-jp.com](https://mtg-jp.com/reading/pd/0019778/) |
-| 多様なメタゲームの設計 | — | [mtg-jp.com](https://mtg-jp.com/reading/pd/0030090/) |
+| Lauer の 4 つのルール | — [要確認] | [mtg-jp.com](https://mtg-jp.com/reading/pd/0019778/) |
+| 多様なメタゲームの設計 | — [要確認] | [mtg-jp.com](https://mtg-jp.com/reading/pd/0030090/) |
 
 ## 個別タイトルの参考資料
 
@@ -107,7 +109,7 @@ CG01: 1 MV / CG02: 2 MV / CG03: 2 MV / CG04: 3 MV / CG05: 3 MV / CG06: 3-4 MV / 
 | 論文 | 著者 | 年 | 会議/出版 |
 |------|------|-----|----------|
 | Automated playtesting with evolutionary algorithms | Garcia-Sanchez et al. | 2018 | EA |
-| LUDUS: Balancing card games with LLMs | — | 2022 | AAAI |
+| LUDUS: Balancing card games with LLMs | — [要確認] | 2022 | AAAI |
 | MCTS for card game balancing | Beau & Bakkes | 2016 | — |
 | RL-based meta prediction | Saravanan & Guzdial | 2024 | — |
 
