@@ -40,6 +40,12 @@ FILES=(
   appendix_b.md
 )
 
+# 最初の Markdown 見出しを取得
+first_heading() {
+  local path="$1"
+  sed -n '/^#\{1,2\} /{p;q;}' "$path"
+}
+
 # --- 1. 全章結合 ---
 : > "$OUTPUT"
 
@@ -50,7 +56,7 @@ for file in "${FILES[@]}"; do
     exit 1
   fi
   cat "$path" >> "$OUTPUT"
-  echo -e "\n" >> "$OUTPUT"
+  printf '\n\n' >> "$OUTPUT"
 done
 
 echo "ビルド完了: ${OUTPUT}"
@@ -60,8 +66,11 @@ echo "$(wc -l < "$OUTPUT") 行"
 TOC=""
 for file in "${FILES[@]}"; do
   path="${CHAPTERS_DIR}/${file}"
-  # 先頭の見出し行を取得
-  heading=$(head -1 "$path")
+  heading="$(first_heading "$path")"
+  if [[ -z "$heading" ]]; then
+    echo "ERROR: ${path} に見出しがありません" >&2
+    exit 1
+  fi
 
   case "$file" in
     00_preface.md)
