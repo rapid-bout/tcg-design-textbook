@@ -33,7 +33,7 @@
 
 ### 第 VI 部 — 事例研究
 - [第16章 事例研究：デジタルカードゲーム](chapters/ch16.md)
-- [第17章 事例研究：物理TCGとハイブリッド](chapters/ch17.md)
+- [第17章 事例研究：物理TCGと日本市場の設計](chapters/ch17.md)
 - [付録 A — メカニズム的カラーパイ詳細表](chapters/appendix_a.md)
 - [付録 B — コモンクリーチャーカーブ (MtG)](chapters/appendix_b.md)
 
