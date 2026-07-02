@@ -56,7 +56,7 @@ CG01: 1 MV / CG02: 2 MV / CG03: 2 MV / CG04: 3 MV / CG05: 3 MV / CG06: 3-4 MV / 
 | 記事 | 著者 | リンク |
 |------|------|--------|
 | Twenty Years, Twenty Lessons Part 1 | Mark Rosewater | [リンク](https://magic.wizards.com/en/news/making-magic/twenty-years-twenty-lessons-part-1-2016-05-30) |
-| FIRE It Up | — [要確認] | [リンク](https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21) |
+| FIRE It Up | Abro (WotC Play Design) | [リンク](https://magic.wizards.com/en/news/card-preview/fire-it-2019-06-21) |
 | Timmy, Johnny, and Spike | Mark Rosewater | [リンク](https://magic.wizards.com/en/news/making-magic/timmy-johnny-and-spike-2013-12-03) |
 | Mechanical Color Pie 2021 | Mark Rosewater | [リンク](https://magic.wizards.com/en/news/making-magic/mechanical-color-pie-2021) |
 | Bleeding Cool | Mark Rosewater | [リンク](https://magic.wizards.com/en/news/making-magic/bleeding-cool-2015-04-06) |
@@ -77,8 +77,8 @@ CG01: 1 MV / CG02: 2 MV / CG03: 2 MV / CG04: 3 MV / CG05: 3 MV / CG06: 3-4 MV / 
 | 記事 | 著者 | リンク |
 |------|------|--------|
 | Who's the Beatdown? | Mike Flores | [Star City Games](https://articles.starcitygames.com/articles/whos-the-beatdown/) |
-| Lauer の 4 つのルール | — [要確認] | [mtg-jp.com](https://mtg-jp.com/reading/pd/0019778/) |
-| 多様なメタゲームの設計 | — [要確認] | [mtg-jp.com](https://mtg-jp.com/reading/pd/0030090/) |
+| Lauer の 4 つのルール | Melissa DeTora（原案 Erik Lauer） | [mtg-jp.com](https://mtg-jp.com/reading/pd/0019778/) |
+| 多様なメタゲームの設計 | Melissa DeTora | [mtg-jp.com](https://mtg-jp.com/reading/pd/0030090/) |
 
 ## 個別タイトルの参考資料
 
@@ -108,10 +108,10 @@ CG01: 1 MV / CG02: 2 MV / CG03: 2 MV / CG04: 3 MV / CG05: 3 MV / CG06: 3-4 MV / 
 
 | 論文 | 著者 | 年 | 会議/出版 |
 |------|------|-----|----------|
-| Automated playtesting with evolutionary algorithms | Garcia-Sanchez et al. | 2018 | EA |
-| LUDUS: Balancing card games with LLMs | — [要確認] | 2022 | AAAI |
-| MCTS for card game balancing | Beau & Bakkes | 2016 | — |
-| RL-based meta prediction | Saravanan & Guzdial | 2024 | — |
+| Automated playtesting with evolutionary algorithms | García-Sánchez et al. | 2018 | Knowledge-Based Systems |
+| Ludus: An Optimization Framework to Balance Auto Battler Cards | Budijono et al. | 2022 | AAAI |
+| Automated Game Balancing of Asymmetric Video Games (MCTS) | Beau & Bakkes | 2016 | IEEE CIG |
+| RL-based meta prediction | Saravanan & Guzdial | 2024 | arXiv |
 
 ---
 
