@@ -24,13 +24,14 @@ resolve_path() {
 # 全章ファイルが存在するか確認
 EXPECTED_FILES=(
   00_preface.md
-  part1_intro.md ch00.md ch01.md ch02.md ch03.md
+  intro.md
+  part1_intro.md ch01.md ch02.md ch03.md
   part2_intro.md ch04.md ch05.md ch06.md ch07.md
-  part3_intro.md ch08.md ch09.md ch10.md
-  part4_intro.md ch11.md ch12.md
-  part5_intro.md ch13.md ch14.md ch15.md
-  part6_intro.md ch16.md ch17.md
-  appendix_a.md appendix_b.md
+  part3_intro.md ch08.md ch09.md
+  part4_intro.md ch10.md ch11.md ch12.md
+  part5_intro.md ch13.md ch14.md
+  part6_intro.md ch15.md ch16.md
+  appendix_a.md appendix_b.md appendix_c.md appendix_d.md
 )
 
 for file in "${EXPECTED_FILES[@]}"; do
