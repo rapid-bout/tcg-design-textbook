@@ -67,7 +67,7 @@
 **付録**
 - [付録 A — メカニズム的カラーパイ詳細表](appendix_a.md)
 - [付録 B — コモンクリーチャーカーブ (MtG)](appendix_b.md)
-- [付録 C — 設計の30教訓（Phase 2 で一覧化予定）](appendix_c.md)
-- [付録 D — TCG小史（Phase 2 で圧縮予定）](appendix_d.md)
+- [付録 C — 設計の30教訓](appendix_c.md)
+- [付録 D — TCG小史（Phase 3 で年表化予定）](appendix_d.md)
 
 ---

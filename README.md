@@ -35,8 +35,8 @@
 - [第16章 事例研究：物理TCGと日本市場の設計](chapters/ch16.md)
 - [付録 A — メカニズム的カラーパイ詳細表](chapters/appendix_a.md)
 - [付録 B — コモンクリーチャーカーブ (MtG)](chapters/appendix_b.md)
-- [付録C — 設計の30教訓（Phase 2 で一覧化予定）](chapters/appendix_c.md)
-- [付録D — TCG小史（Phase 2 で圧縮予定）](chapters/appendix_d.md)
+- [付録C — 設計の30教訓](chapters/appendix_c.md)
+- [付録D — TCG小史（Phase 3 で年表化予定）](chapters/appendix_d.md)
 
 ## ビルド
 
