@@ -39,6 +39,7 @@ FILES=(
   appendix_b.md
   appendix_c.md
   appendix_d.md
+  colophon.md
 )
 
 # 最初の Markdown 見出しを取得

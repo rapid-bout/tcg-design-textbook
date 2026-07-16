@@ -31,7 +31,7 @@ EXPECTED_FILES=(
   part4_intro.md ch10.md ch11.md ch12.md
   part5_intro.md ch13.md ch14.md
   part6_intro.md ch15.md ch16.md
-  appendix_a.md appendix_b.md appendix_c.md appendix_d.md
+  appendix_a.md appendix_b.md appendix_c.md appendix_d.md colophon.md
 )
 
 for file in "${EXPECTED_FILES[@]}"; do

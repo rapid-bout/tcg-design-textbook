@@ -37,6 +37,7 @@
 - [付録 B — コモンクリーチャーカーブ (MtG)](chapters/appendix_b.md)
 - [付録C — 設計の30教訓](chapters/appendix_c.md)
 - [付録D — TCG小史年表](chapters/appendix_d.md)
+- [奥付](chapters/colophon.md)
 
 ## ビルド
 
