@@ -8,7 +8,7 @@
 
 ### 第 I 部 — 最初の1枚を作る
 - [第1章 1枚のカードを作る](chapters/ch01.md)
-- [第2章 ゲームの構成要素と評価基準](chapters/ch02.md)
+- [第2章 その1枚は強いのか](chapters/ch02.md)
 - [第3章 プレイヤーを理解する](chapters/ch03.md)
 
 ### 第 II 部 — ゲームの骨格を作る
@@ -36,7 +36,7 @@
 - [付録 A — メカニズム的カラーパイ詳細表](chapters/appendix_a.md)
 - [付録 B — コモンクリーチャーカーブ (MtG)](chapters/appendix_b.md)
 - [付録C — 設計の30教訓](chapters/appendix_c.md)
-- [付録D — TCG小史（Phase 3 で年表化予定）](chapters/appendix_d.md)
+- [付録D — TCG小史年表](chapters/appendix_d.md)
 
 ## ビルド
 
