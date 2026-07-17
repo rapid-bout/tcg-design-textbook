@@ -34,21 +34,6 @@ Rosewater の主張はシンプルです。**カードのすべての要素は�
 
 ---
 
-## 原作と違っていても、伝わる
-
-実際のカードで見てみましょう。ポケモンカードの《ピカチュウV》の「10まんボルト」です。
-
-> **10まんボルト 200**
-> このポケモンについているエネルギーを、すべてトラッシュする。
-
-原作ゲームの 10 まんボルトは威力 90・命中 100 の安定技で、反動なんてありません。エネルギーを全部捨てるコストは、カード化にあたって新しく付けられたものです。
-
-それでも、違和感がない。「10まんボルト」という技名が呼び起こす「強烈な一撃」のイメージと、全エネルギーを失う大きな代償が、カードの上ではひとつの物語としてつながっているからです。
-
-ここがコミュニケーション理論の核心だと思います。**原作と細部が違っていても、名前と効果が同じ方向を向いていれば、カードの意図は伝わる。**
-
----
-
 ## 「物語の中にいる」と感じさせるカード
 
 名前と効果が合っている、のさらに先があります。カードを使う瞬間に、プレイヤーが物語の中にいると感じるレベルです。
@@ -114,7 +99,6 @@ MtG の《Emrakul, the Promised End》です。
 まとめます。
 
 - カードの全要素はメッセージの通り道で、**同じ方向を向かせる**のがいい 1 枚の条件
-- 原作と細部が違っても、**名前と効果が同じ方向なら意図は伝わる**（10まんボルト）
 - 全要素をフレイバーから作る必要はない。**機能設計とフレイバー翻訳は 1 枚に同居できる**（かがやくゲッコウガ）
 - 最高の一致は、複数の処理がひとつのモチーフに収束する（ヨワシ）
 
@@ -122,4 +106,4 @@ MtG の《Emrakul, the Promised End》です。
 
 次回は、こういう 1 枚がそもそもどうやって生まれるのかの話。カードの作り方は、突き詰めると 2 通りしかありません。
 
-> **出典:** [ピカチュウV](https://www.pokemon-card.com/card-search/details.php/card/41664/regu/all)、[かがやくゲッコウガ](https://www.pokemon-card.com/card-search/details.php/card/41212/regu/all)、[ヨワシ](https://www.pokemon-card.com/card-search/details.php/card/33484)、[ヨワシGX](https://www.pokemon-card.com/card-search/details.php/card/37442) — ポケモンカード公式カード検索 / [Emrakul, the Promised End](https://scryfall.com/card/inr/5/emrakul-the-promised-end) — Scryfall
+> **出典:** [かがやくゲッコウガ](https://www.pokemon-card.com/card-search/details.php/card/41212/regu/all)、[ヨワシ](https://www.pokemon-card.com/card-search/details.php/card/33484)、[ヨワシGX](https://www.pokemon-card.com/card-search/details.php/card/37442) — ポケモンカード公式カード検索 / [Emrakul, the Promised End](https://scryfall.com/card/inr/5/emrakul-the-promised-end) — Scryfall
