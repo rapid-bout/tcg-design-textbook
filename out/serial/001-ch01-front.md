@@ -52,6 +52,22 @@ MtG の《Emrakul, the Promised End》です。
 
 ---
 
+## ルールを隠す、名前を隠す
+
+いまの「全部が同じ方向を向く」を、手元のカードで確かめる遊びがあります。Rosewater が紹介している 2 つのテストです（[Vorthos and Mel](https://magic.wizards.com/en/news/making-magic/vorthos-and-mel-2015-08-31)）。
+
+ひとつめは、ルールテキストを隠してカードを見る。名前とアートだけで、そのカードは興味を引くか。世界観に忠実か。ドラゴンを召喚している気分になれるか。
+
+ふたつめは逆に、名前とアートを隠す。効果の文だけで、その設計は美しいか。複雑なことを、最小限の文字数で言えているか。
+
+Emrakul は両方を通ります。名前とアートだけでも「見てはいけないものを見た」感じが立つし、効果だけでも「墓地が肥えるほど軽くなる 13 マナ」という構造の美しさが残る。両方を同時に通るカードが、語り継がれるカードです。
+
+<!-- TODO(javakky): 「僕がルールを隠しても見ていられるカード」を 1 枚、実名で 1〜2 文入れると体温が上がります。候補があれば差し込んでください -->
+
+逆向きの注意もひとつ。見た目は、カードの強さの感じ方まで動かします。アートが大きく派手なほど、プレイヤーはそのカードを「強そう」と感じる。だから弱いカードに劇的なアートを与えると、「見た目は凄いのに使えない」というがっかりが生まれます。同じ方向を向かせる、という原則は、強さの見せ方にも効いているわけです。
+
+---
+
 ## 1枚のカードの中に、2つの設計が同居する
 
 もう 1 枚、ポケモンカードの《かがやくゲッコウガ》です。
@@ -99,6 +115,7 @@ MtG の《Emrakul, the Promised End》です。
 まとめます。
 
 - カードの全要素はメッセージの通り道で、**同じ方向を向かせる**のがいい 1 枚の条件
+- **ルールを隠す/名前を隠す**の 2 つのテストで、その一致は自分で検分できる
 - 全要素をフレイバーから作る必要はない。**機能設計とフレイバー翻訳は 1 枚に同居できる**（かがやくゲッコウガ）
 - 最高の一致は、複数の処理がひとつのモチーフに収束する（ヨワシ）
 
@@ -106,4 +123,4 @@ MtG の《Emrakul, the Promised End》です。
 
 次回は、こういう 1 枚がそもそもどうやって生まれるのかの話。カードの作り方は、突き詰めると 2 通りしかありません。
 
-> **出典:** [かがやくゲッコウガ](https://www.pokemon-card.com/card-search/details.php/card/41212/regu/all)、[ヨワシ](https://www.pokemon-card.com/card-search/details.php/card/33484)、[ヨワシGX](https://www.pokemon-card.com/card-search/details.php/card/37442) — ポケモンカード公式カード検索 / [Emrakul, the Promised End](https://scryfall.com/card/inr/5/emrakul-the-promised-end) — Scryfall
+> **出典:** [かがやくゲッコウガ](https://www.pokemon-card.com/card-search/details.php/card/41212/regu/all)、[ヨワシ](https://www.pokemon-card.com/card-search/details.php/card/33484)、[ヨワシGX](https://www.pokemon-card.com/card-search/details.php/card/37442) — ポケモンカード公式カード検索 / [Emrakul, the Promised End](https://scryfall.com/card/inr/5/emrakul-the-promised-end) — Scryfall / [Vorthos and Mel](https://magic.wizards.com/en/news/making-magic/vorthos-and-mel-2015-08-31) — magic.wizards.com

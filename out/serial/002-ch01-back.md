@@ -67,7 +67,15 @@
 
 セット単位の例だと、MtG のラヴニカは「10 の 2 色ペアを均等に扱う」という仕組みが先にあって、そこから「10 のギルドが支配する都市国家」という世界観が生まれました。ゼンディカーも「土地を置くと得をする」メカニクスが先で、「大地そのものが危険な冒険世界」は後付けです。
 
+仕組みから出発すると聞くと、無味乾燥な作業に思えるかもしれません。でも起点に置くのは、数字でなく感情でもいい。MtG のカラデシュは「発明家になった気分」という体験を先に決めて、そこからエネルギーカウンターなどの仕組みを組み、スチームパンクの世界観は最後に着せました。ボトムアップの「ボトム」には、感情も置けます。
+
+そして、ボトムアップにもちゃんと事故があります。MtG の「フェイジング」は「クリーチャーが一時的に消えたら面白いんじゃないか」という、問いとしては上等な仕組みでした。ところが実際に卓に出すと、どのカードが消えていて、いつ戻るのかの追跡が重すぎた。「面白そう」の確認と、「卓の上で回るか」の確認は、別の検算です（[Ten Principles for Good Design](https://magic.wizards.com/en/news/making-magic/ten-principles-good-design-2010-05-10)）。
+
+<!-- TODO(javakky): 自作で「面白そうだったのに卓で回らなかった」仕組みの実体験があれば、ここに 2〜3 文入れたい -->
+
 使い分けの目安はこうです。**まだ試されていない仕組みを試したいならボトムアップ。誰もが知っているテーマの共感に乗りたいならトップダウン。** 実務では両方を混ぜます。看板カードはトップダウンで共鳴を最大化して、カードプールの大部分はボトムアップで健全さを優先する。実務はこのバランスに落ち着いています。
+
+混ぜた先はどうなるか。Rosewater 自身が「フレイバーとメカニクスの統合が進んだ結果、トップダウンかボトムアップか見分けがつかないセットが増えた」と言っています。2 通りの作り方は出発点の話であって、よくできた完成形では、どちらから作ったかはもう見えなくなっているわけです。
 
 ---
 
@@ -91,4 +99,4 @@
 
 次回は「そのカード、強いの？」という誰もが聞く質問を、プロがどう分解しているかの話。ポケモンカード最弱クラスの、あるカードに登場してもらいます。
 
-> **出典:** [Communication Theory](https://magic.wizards.com/en/news/making-magic/communication-theory-2013-12-17)、[Top Down and Goal](https://magic.wizards.com/en/news/making-magic/top-down-and-goal-2003-06-09)、[Nuts & Bolts #14: Initial Ideation](https://magic.wizards.com/en/news/making-magic/nuts-bolts-14-initial-ideation-2022-03-07) — magic.wizards.com / [仮面ライダーオーズ プトティラ コンボ](https://www.unionarena-tcg.com/jp/cardlist/detail.php?card_no=UA29BT/KMR-1-041) — ユニオンアリーナ公式カードリスト
+> **出典:** [Communication Theory](https://magic.wizards.com/en/news/making-magic/communication-theory-2013-12-17)、[Top Down and Goal](https://magic.wizards.com/en/news/making-magic/top-down-and-goal-2003-06-09)、[Nuts & Bolts #14: Initial Ideation](https://magic.wizards.com/en/news/making-magic/nuts-bolts-14-initial-ideation-2022-03-07)、[Ten Principles for Good Design](https://magic.wizards.com/en/news/making-magic/ten-principles-good-design-2010-05-10) — magic.wizards.com / [仮面ライダーオーズ プトティラ コンボ](https://www.unionarena-tcg.com/jp/cardlist/detail.php?card_no=UA29BT/KMR-1-041) — ユニオンアリーナ公式カードリスト
