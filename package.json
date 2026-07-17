@@ -1,0 +1,15 @@
+{
+  "name": "tcg-design-textbook",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:mermaid": "node scripts/build-mermaid.mjs",
+    "build:book": "npm run build:mermaid && vivliostyle build",
+    "preview": "vivliostyle preview"
+  },
+  "devDependencies": {
+    "@vivliostyle/cli": "^8",
+    "@vivliostyle/theme-techbook": "^2",
+    "@mermaid-js/mermaid-cli": "^11"
+  }
+}

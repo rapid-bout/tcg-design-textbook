@@ -12,8 +12,8 @@ mkdir -p "$(dirname "$OUTPUT")"
 # 結合順序を定義
 FILES=(
   00_preface.md
+  intro.md
   part1_intro.md
-  ch00.md
   ch01.md
   ch02.md
   ch03.md
@@ -22,15 +22,15 @@ FILES=(
   ch05.md
   ch06.md
   ch07.md
-  part3_intro.md
   ch08.md
+  part3_intro.md
   ch09.md
   ch10.md
   part4_intro.md
   ch11.md
   ch12.md
-  part5_intro.md
   ch13.md
+  part5_intro.md
   ch14.md
   ch15.md
   part6_intro.md
@@ -38,6 +38,9 @@ FILES=(
   ch17.md
   appendix_a.md
   appendix_b.md
+  appendix_c.md
+  appendix_d.md
+  colophon.md
 )
 
 # 最初の Markdown 見出しを取得
