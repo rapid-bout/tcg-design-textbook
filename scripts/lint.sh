@@ -26,11 +26,11 @@ EXPECTED_FILES=(
   00_preface.md
   intro.md
   part1_intro.md ch01.md ch02.md ch03.md
-  part2_intro.md ch04.md ch05.md ch06.md ch07.md
-  part3_intro.md ch08.md ch09.md
-  part4_intro.md ch10.md ch11.md ch12.md
-  part5_intro.md ch13.md ch14.md
-  part6_intro.md ch15.md ch16.md
+  part2_intro.md ch04.md ch05.md ch06.md ch07.md ch08.md
+  part3_intro.md ch09.md ch10.md
+  part4_intro.md ch11.md ch12.md ch13.md
+  part5_intro.md ch14.md ch15.md
+  part6_intro.md ch16.md ch17.md
   appendix_a.md appendix_b.md appendix_c.md appendix_d.md colophon.md
 )
 
@@ -74,7 +74,7 @@ while IFS= read -r file; do
   done < <(perl -ne 'while(/\[[^\]]+\]\(([^)]+)\)/g){print "$1\n"}' "$file")
 done < <(
   find "$REPO_ROOT" \
-    \( -path "$REPO_ROOT/.git" -o -path "$REPO_ROOT/.idea" -o -path "$REPO_ROOT/dist" \) -prune \
+    \( -path "$REPO_ROOT/.git" -o -path "$REPO_ROOT/.idea" -o -path "$REPO_ROOT/dist" -o -path "$REPO_ROOT/node_modules" -o -path "$REPO_ROOT/.vivliostyle" -o -path "$REPO_ROOT/output" -o -path "$REPO_ROOT/build" \) -prune \
     -o -name '*.md' -print
 )
 

@@ -22,19 +22,20 @@ FILES=(
   ch05.md
   ch06.md
   ch07.md
-  part3_intro.md
   ch08.md
+  part3_intro.md
   ch09.md
-  part4_intro.md
   ch10.md
+  part4_intro.md
   ch11.md
   ch12.md
-  part5_intro.md
   ch13.md
+  part5_intro.md
   ch14.md
-  part6_intro.md
   ch15.md
+  part6_intro.md
   ch16.md
+  ch17.md
   appendix_a.md
   appendix_b.md
   appendix_c.md

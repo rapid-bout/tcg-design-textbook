@@ -15,24 +15,25 @@
 - [第4章 リソースシステムの設計](chapters/ch04.md)
 - [第5章 陣営アイデンティティの設計](chapters/ch05.md)
 - [第6章 カード設計のプロセス](chapters/ch06.md)
-- [第7章 カード評価の理論](chapters/ch07.md)
+- [第7章 原作のあるカードゲームの設計](chapters/ch07.md)
+- [第8章 カード評価の理論](chapters/ch08.md)
 
 ### 第 III 部 — カードを磨く
-- [第8章 複雑性管理](chapters/ch08.md)
-- [第9章 ランダム性の設計](chapters/ch09.md)
+- [第9章 複雑性管理](chapters/ch09.md)
+- [第10章 ランダム性の設計](chapters/ch10.md)
 
 ### 第 IV 部 — メタゲームとバランス
-- [第10章 メタゲーム理論](chapters/ch10.md)
-- [第11章 バランス調整の実践](chapters/ch11.md)
-- [第12章 規制とフォーマット管理](chapters/ch12.md)
+- [第11章 メタゲーム理論](chapters/ch11.md)
+- [第12章 バランス調整の実践](chapters/ch12.md)
+- [第13章 規制とフォーマット管理](chapters/ch13.md)
 
 ### 第 V 部 — 展開する
-- [第13章 デジタルTCGの設計](chapters/ch13.md)
-- [第14章 マネタイゼーションとプログレッション設計](chapters/ch14.md)
+- [第14章 デジタルTCGの設計](chapters/ch14.md)
+- [第15章 マネタイゼーションとプログレッション設計](chapters/ch15.md)
 
 ### 第 VI 部 — 事例研究
-- [第15章 事例研究：デジタルカードゲーム](chapters/ch15.md)
-- [第16章 事例研究：物理TCGと日本市場の設計](chapters/ch16.md)
+- [第16章 事例研究：デジタルカードゲーム](chapters/ch16.md)
+- [第17章 事例研究：物理TCGと日本市場の設計](chapters/ch17.md)
 - [付録 A — メカニズム的カラーパイ詳細表](chapters/appendix_a.md)
 - [付録 B — コモンクリーチャーカーブ (MtG)](chapters/appendix_b.md)
 - [付録C — 設計の30教訓](chapters/appendix_c.md)
